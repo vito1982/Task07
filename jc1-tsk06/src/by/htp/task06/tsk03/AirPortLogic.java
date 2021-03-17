@@ -59,7 +59,7 @@ public class AirPortLogic {
 		
 		try {
 			date = sdf.parse(s);
-		} catch (ParseException e) {
+		} catch (ParseException e) {// мы подробно исключения рассматривали чуть позже, но помни, что просто так гасить исключение нельзя
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
